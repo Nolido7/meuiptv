@@ -20,7 +20,7 @@
 
     // Aguardar configuração do WhatsApp
     function getWhatsAppLink() {
-        return window.WHATSAPP_CONFIG ? window.WHATSAPP_CONFIG.WHATSAPP_LINK : 'https://api.whatsapp.com/send/?phone=5521967827833&text=Ol%C3%A1%2C+gostaria+de+experimentar+a+Viu+TV+Plus.&type=phone_number&app_absent=0';
+        return window.WHATSAPP_CONFIG ? window.WHATSAPP_CONFIG.WHATSAPP_LINK : 'https://api.whatsapp.com/send/?phone=556281215133&amp;text=*Ol%C3%A1%2C+gostaria+de+experimentar+o+Meu+IPTV+Brasil.*&amp;type=phone_number&amp;app_absent=0';
     }
     
     // Aplicar link do WhatsApp em todos os botões "Solicitar Teste"
@@ -309,4 +309,5 @@
         optimizeImages();
     });
     
+
 })();
